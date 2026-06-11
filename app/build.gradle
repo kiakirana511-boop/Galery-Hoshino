@@ -1,0 +1,20 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.radiant.hoshinovault"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.radiant.hoshinovault"
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName "3.0-final"
+    }
+}
+
+dependencies {
+    // Native Android Java only. Tidak perlu library tambahan.
+}
